@@ -1,18 +1,18 @@
-export const MainCaroselData = [
+export const mainCaroselData = [
   {
-    image: "",
-    path: "",
+    image: "image one",
+    path: "./Carouselimg/1.png",
   },
   {
-    image: "",
-    path: "",
+    image: "image two",
+    path: "./Carouselimg/2.png",
   },
   {
-    image: "",
-    path: "",
+    image: "image three",
+    path: "./Carouselimg/3.png",
   },
   {
-    image: "",
-    path: "",
+    image: "image four",
+    path: "./Carouselimg/4.png",
   },
 ];

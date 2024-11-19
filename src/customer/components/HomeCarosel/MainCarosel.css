@@ -1,0 +1,15 @@
+/* MainCarosel.css */
+.carousel-image {
+  width: 300px; /* Fixed width */
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Ensures the image doesn't stretch but fits the box */
+  display: block; /* Prevents image from being inline (which could affect centering) */
+  margin: 0 auto; /* Centers the image horizontally */
+}
+
+.carousel-item {
+  display: flex; /* Use flexbox to align the images */
+  justify-content: center; /* Centers images horizontally */
+  align-items: center; /* Centers images vertically */
+  height: 100%; /* Ensures the item takes full height */
+}

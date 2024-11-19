@@ -88,7 +88,7 @@ const navigation = {
     },
     {
       id: "lightning",
-      name: "Lightning",
+      name: "Lightning and Others",
       featured: [
         {
           name: "New Arrivals",
