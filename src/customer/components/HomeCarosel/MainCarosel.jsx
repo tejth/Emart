@@ -17,7 +17,15 @@ const MainCarosel = () => {
     </div>
   ));
 
-  return <AliceCarousel items={items} />;
+  return (
+    <AliceCarousel
+      items={items}
+      disableButtonsControls
+      autoPlay
+      autoPlayInterval={1000}
+      infinite
+    />
+  );
 };
 
 export default MainCarosel;
